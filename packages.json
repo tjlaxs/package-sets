@@ -452,7 +452,7 @@
       "web-dom"
     ],
     "repo": "https://github.com/sharkdp/purescript-flare.git",
-    "version": "v4.0.0"
+    "version": "v5.0.0"
   },
   "drawing": {
     "dependencies": [
