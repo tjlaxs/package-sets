@@ -438,6 +438,10 @@
     "repo": "https://github.com/slamdata/purescript-fixed-points.git",
     "version": "v5.1.0"
   },
+    "dependencies": [
+      "foldable-traversable",
+    ],
+  },
   "foldable-traversable": {
     "dependencies": [
       "bifunctors",
@@ -1437,6 +1441,18 @@
     ],
     "repo": "https://github.com/purescript/purescript-semirings.git",
     "version": "v5.0.0"
+  },
+  "signal": {
+    "dependencies": [
+      "js-timers",
+      "foldable-traversable",
+      "maybe",
+      "either",
+      "aff",
+      "prelude"
+    ],
+    "repo": "https://github.com/tjlaxs/purescript-signal.git",
+    "version": "master"
   },
   "simple-json": {
     "dependencies": [
