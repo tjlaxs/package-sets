@@ -438,9 +438,48 @@
     "repo": "https://github.com/slamdata/purescript-fixed-points.git",
     "version": "v5.1.0"
   },
+  "flare": {
     "dependencies": [
+      "canvas",
+      "datetime",
+      "drawing",
       "foldable-traversable",
+      "nonempty",
+      "prelude",
+      "signal",
+      "smolder",
+      "tuples",
+      "web-dom"
     ],
+    "repo": "https://github.com/sharkdp/purescript-flare.git",
+    "version": "v4.0.0"
+  },
+  "drawing": {
+    "dependencies": [
+      "canvas",
+      "lists",
+      "math",
+      "integers",
+      "colors"
+    ],
+    "repo": "https://github.com/paf31/purescript-drawing.git",
+    "version": "v5.0.0"
+  },
+  "smolder": {
+    "dependencies": [
+      "bifunctors",
+      "catenable-lists",
+      "free",
+      "globals",
+      "ordered-collections",
+      "prelude",
+      "strings",
+      "test-unit",
+      "transformers",
+      "tuples"
+    ],
+    "repo": "https://github.com/bodil/purescript-smolder.git",
+    "version": "v11.0.0"
   },
   "foldable-traversable": {
     "dependencies": [
