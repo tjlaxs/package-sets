@@ -329,6 +329,17 @@
     "repo": "https://github.com/slamdata/purescript-dom-indexed.git",
     "version": "v6.0.0"
   },
+  "drawing": {
+    "dependencies": [
+      "canvas",
+      "lists",
+      "math",
+      "integers",
+      "colors"
+    ],
+    "repo": "https://github.com/paf31/purescript-drawing.git",
+    "version": "v5.0.0"
+  },
   "effect": {
     "dependencies": [
       "prelude"
@@ -453,33 +464,6 @@
     ],
     "repo": "https://github.com/sharkdp/purescript-flare.git",
     "version": "v5.0.0"
-  },
-  "drawing": {
-    "dependencies": [
-      "canvas",
-      "lists",
-      "math",
-      "integers",
-      "colors"
-    ],
-    "repo": "https://github.com/paf31/purescript-drawing.git",
-    "version": "v5.0.0"
-  },
-  "smolder": {
-    "dependencies": [
-      "bifunctors",
-      "catenable-lists",
-      "free",
-      "globals",
-      "ordered-collections",
-      "prelude",
-      "strings",
-      "test-unit",
-      "transformers",
-      "tuples"
-    ],
-    "repo": "https://github.com/bodil/purescript-smolder.git",
-    "version": "v11.0.0"
   },
   "foldable-traversable": {
     "dependencies": [
@@ -1507,6 +1491,22 @@
     ],
     "repo": "https://github.com/justinwoo/purescript-simple-json.git",
     "version": "v4.0.0"
+  },
+  "smolder": {
+    "dependencies": [
+      "bifunctors",
+      "catenable-lists",
+      "free",
+      "globals",
+      "ordered-collections",
+      "prelude",
+      "strings",
+      "test-unit",
+      "transformers",
+      "tuples"
+    ],
+    "repo": "https://github.com/bodil/purescript-smolder.git",
+    "version": "v11.0.0"
   },
   "spec": {
     "dependencies": [
