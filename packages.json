@@ -1491,7 +1491,7 @@
       "prelude"
     ],
     "repo": "https://github.com/tjlaxs/purescript-signal.git",
-    "version": "master"
+    "version": "v10.1.0-tjlaxs"
   },
   "simple-json": {
     "dependencies": [
